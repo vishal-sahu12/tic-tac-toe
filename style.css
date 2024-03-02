@@ -1,0 +1,120 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* .gradient-background {
+    background: linear-gradient(300deg, #00bfff, #f8b7c0, #ef8172);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+@keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+} */
+.gradient-background {
+    background: linear-gradient(500deg, #00bfff, #f8b7c0, #ef8172);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+@keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+}
+
+
+
+
+body{
+    background-color: #D6F6DD;
+    text-align: center;
+}
+
+.container{
+    margin-top: 2vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 70vh;
+}
+.game{
+    gap: 1vmin;
+    display: flex;
+    flex-wrap: wrap;
+    height: 65vmin;
+    width: 65vmin;
+}
+.item{
+    font-size: 9vmin;
+    color:#CB353C;
+    height: 20vmin;   
+    width: 20vmin; 
+    border: none;
+    border-radius: 4vmin;
+    background-color: #fce39e;
+    box-shadow: 6px 6px 5px #96dae6;
+
+}
+
+#reset-btn{
+    margin-top: 1.5rem;
+    height: 3rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: #DAC4F7;
+    color: black;
+    border: none;
+    box-shadow: 4px 4px 3px ;
+}
+#new-btn{
+    margin-top: 2rem;
+    height: 3rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: #DAC4F7;
+    color: black;
+    border: none;
+    box-shadow: 4px 4px 3px ;
+}
+.center{
+    font-size: 8vmin;
+    color: black;
+}
+#winner{
+    margin-top: 5vmin;
+    font-size: 7vmin;
+    color: rgb(2, 32, 32);
+}
+
+.new{
+    
+    height: 85vmin;
+    margin-top:2vmin;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.hide{
+    display: none;
+}
+
+
