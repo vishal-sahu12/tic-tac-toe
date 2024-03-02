@@ -2,7 +2,7 @@
     margin: 0px;
     padding: 0px;
 }
-/* .gradient-background {
+.gradient-background {
     background: linear-gradient(300deg, #00bfff, #f8b7c0, #ef8172);
     background-size: 180% 180%;
     animation: gradient-animation 18s ease infinite;
@@ -18,24 +18,9 @@
     100% {
       background-position: 0% 50%;
     }
-} */
-.gradient-background {
-    background: linear-gradient(500deg, #00bfff, #f8b7c0, #ef8172);
-    background-size: 180% 180%;
-    animation: gradient-animation 18s ease infinite;
-  }
-  
-@keyframes gradient-animation {
-    0% {
-      background-position: 0% 50%;
-    }
-    50% {
-      background-position: 100% 50%;
-    }
-    100% {
-      background-position: 0% 50%;
-    }
 }
+
+
 
 
 

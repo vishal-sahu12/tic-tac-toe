@@ -97,11 +97,3 @@ function removeText(){
 }
 
 
-/*
-disabled -
-hide -
-button -
-tie -
-Add background
-*/
-
