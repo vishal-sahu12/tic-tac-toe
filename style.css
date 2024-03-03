@@ -4,8 +4,8 @@
 }
 .gradient-background {
     background: linear-gradient(300deg, #00bfff, #f8b7c0, #ef8172);
-    background-size: 180% 180%;
-    animation: gradient-animation 18s ease infinite;
+    background-size: 180% 250%;
+    animation: gradient-animation 5s ease infinite;
   }
   
 @keyframes gradient-animation {
@@ -57,7 +57,7 @@ body{
 }
 
 #reset-btn{
-    margin-top: 1.5rem;
+    margin-top: 1rem;
     height: 3rem;
     padding: 1rem;
     border-radius: 1rem;
@@ -77,6 +77,7 @@ body{
     box-shadow: 4px 4px 3px ;
 }
 .center{
+    margin-top: 2rem;
     font-size: 8vmin;
     color: black;
 }
@@ -101,5 +102,50 @@ body{
 .hide{
     display: none;
 }
+
+@media(min-width:700px) and (max-width:800px){
+    .container{
+        height: 60vh;
+    }
+}
+
+@media(min-width:550px) and (max-width:700px){
+    .container{
+        height: 50vh;
+    }
+}
+
+@media(min-width:450px) and (max-width:550px){
+    .container{
+        height: 50vh;
+        margin-bottom:0.3rem;
+    }
+    .new{
+        height: 32vmin;
+    }
+}
+
+@media(min-width:200px) and (max-width:450px){
+    .center{
+        margin-top: 30px;
+        margin-bottom: 50px;
+    }
+    .new{
+        height: 50vmin;
+    }
+    #new-btn{
+        height: 2rem;
+        padding:10px;
+    }
+    #reset-btn{
+        height: 2rem;
+        padding:10px;
+    }   
+    .container{
+        height: 30vh;
+        margin-bottom: 50px;
+    }
+}
+
 
 
